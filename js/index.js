@@ -17,11 +17,12 @@ multiplicador x 10 = resultado
 Com apenas um console.log(multiplicador x n° = resultado)
  */
 
-const multiplicador = 7; // 7 representa o número que se pede.
+const multiplicador = 8; // 7 representa o número que se pede.
 
 //let i = 0
 //Retonar até 10 valor pedido.
 // Ele add +1 no final do código ele daa + 1 = 1 + 1 = 2 exemplo.
+// Marquei 100 dentro do let para puxar a tabuada até 100
 for(let i = 0; i <= 100; i++) {
     const calc = multiplicador * i;
     console.log(`${multiplicador} x ${i} = ${calc}`);
